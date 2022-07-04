@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+}
+#navbar{
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+#navbar::before{
+   content: "";
+   background-color: black;
+    position:absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.6;
+
+
+
+}
+#logo{
+    margin: 20px 20px;
+
+}
+#logo img{
+margin: -15px -1px;
+
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    /* color:white; */
+    /* background-color: black; */
+   
+    list-style: none;
+    /* font-size:  */
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:blue;
+  background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#aboutus{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url('../bg.jpg') no-repeat center center/cover;
+    position:absolute;
+     height: 100%;
+     width:100%;
+     z-index: -1;
+     opacity: 0.89;
+
+}
+
+#services::before{
+    content: "";
+    background: url('../bg.jpg') no-repeat center center/cover;
+    position:absolute;
+     height: 100%;
+     width:100%;
+     z-index: -1;
+     opacity: 0.89;
+
+}
+#aboutus::before{
+    content: "";
+    background: url('../bg.jpg') no-repeat center center/cover;
+    position:absolute;
+     height: 100%;
+     width:100%;
+     z-index: -1;
+     opacity: 0.89;
+
+
+}
+#contact::before{
+    content: "";
+    background: url('../bg.jpg') no-repeat center center/cover;
+    position:absolute;
+     height: 100%;
+     width:100%;
+     z-index: -1;
+     opacity: 0.89;
+
+}
+
+#home h1{
+
+    color: white;
+    text-align: center;
+    
+}
+
+#contact h1{
+
+    color: white;
+    text-align: center;
+    
+}
+
+#aboutus h1{
+
+    color: white;
+    text-align: center;
+    
+}
+
+#services h1{
+
+    color: white;
+    text-align: center;
+    
+}
+#home {
+    /* padding: 10px; */
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+.btn{
+    padding: 2px 20px;
+    border:2px solid white;
+    border-radius: 5px; 
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+
+
+}
